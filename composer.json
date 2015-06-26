@@ -1,0 +1,27 @@
+{
+  "name": "wake/twig-trait-adapter",
+  "description": "Provide trait for Silex Twig.",
+  "version": "v1.0.0",
+  "type": "library",
+  "keywords": ["twig", "silex"],
+  "homepage": "https://github.com/wake/Twig-Trait-Adapter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wake Liu",
+      "email": "wake.gs@gmail.com",
+      "homepage": "http://wake.gs"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wake/Twig-Trait-Adapter/issues",
+    "source": "https://github.com/wake/Twig-Trait-Adapter"
+  },
+  "require": {
+      "kriswallsmith/assetic": "~1.3",
+      "twig/twig": "~1.12"
+  },
+  "autoload": {
+    "files": ["src/TwigTraitAdapter.php"]
+  }
+}
