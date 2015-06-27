@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-
+namespace Silex\Application;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\StreamedResponse;

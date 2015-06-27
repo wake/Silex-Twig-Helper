@@ -1,2 +1,2 @@
 # Twig-Trait-Adapter
-Twig trait adapter for silex
+Twig trait adapter for Silex
