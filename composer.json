@@ -18,9 +18,9 @@
     "source": "https://github.com/wake/Twig-Trait"
   },
   "require": {
-      "silex/silex": "1.*",
-      "symfony/twig-bridge": "2.*",
-      "twig/twig": "1.*"
+      "silex/silex": ">=1",
+      "symfony/twig-bridge": ">=2",
+      "twig/twig": ">=1"
   },
   "autoload": {
     "files": ["src/TwigTrait.php"]
