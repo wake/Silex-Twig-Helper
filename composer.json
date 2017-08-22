@@ -1,10 +1,10 @@
 {
-  "name": "wake/twig-trait",
+  "name": "wake/silex-twig-helper",
   "description": "Provide TwigTrait for Silex. This is base on Silex/Application/TwigTrait.php by Fabien Potencier and add some helpful functions.",
   "version": "v2.0.0",
   "type": "library",
   "keywords": ["twig", "silex"],
-  "homepage": "https://github.com/wake/Twig-Trait",
+  "homepage": "https://github.com/wake/Silex-Twig-Helper",
   "license": "MIT",
   "authors": [
     {
@@ -14,8 +14,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/wake/Twig-Trait/issues",
-    "source": "https://github.com/wake/Twig-Trait"
+    "issues": "https://github.com/wake/Silex-Twig-Helper/issues",
+    "source": "https://github.com/wake/Silex-Twig-Helper"
   },
   "require": {
       "silex/silex": ">=1",
@@ -23,6 +23,6 @@
       "twig/twig": ">=1"
   },
   "autoload": {
-    "files": ["src/TwigTrait.php"]
+    "files": ["src/TwigHelperTrait.php"]
   }
 }

@@ -21,7 +21,7 @@
    *
    * @author Fabien Potencier <fabien@symfony.com>
    */
-  trait TwigTrait {
+  trait TwigHelperTrait {
 
 
     /**
