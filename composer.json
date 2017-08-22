@@ -1,6 +1,6 @@
 {
   "name": "wake/silex-twig-helper",
-  "description": "Provide TwigTrait for Silex. This is base on Silex/Application/TwigTrait.php by Fabien Potencier and add some helpful functions.",
+  "description": "Provide a better way to use Twig for Silex. This is base on Silex/Application/TwigTrait.php by Fabien Potencier and add some helpful functions.",
   "version": "v2.0.0",
   "type": "library",
   "keywords": ["twig", "silex"],
