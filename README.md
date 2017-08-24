@@ -1,8 +1,6 @@
 # Silex Twig Helper
 
-Provide a better way to use Twig for Silex.
-
-This is base on Silex/Application/TwigTrait.php by Fabien Potencier.
+Provide a better way to use Twig with Silex, base on [Silex/Application/TwigTrait.php](https://github.com/silexphp/Silex/blob/master/src/Silex/Application/TwigTrait.php) by [Fabien Potencier](https://github.com/fabpot).
 
 ## Usage
 
@@ -10,9 +8,11 @@ This is base on Silex/Application/TwigTrait.php by Fabien Potencier.
 $app->get('/hello/{name}', function ($name) use ($app) {
 
   // Original way
+  /*
   return $app->render ('hello.twig', [
     'name' => $name,
   ]);
+  */
 
   // A better way
   return $app
