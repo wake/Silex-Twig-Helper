@@ -72,6 +72,16 @@
         $response = new Response ();
 
       $twig = $this['twig'];
+      $isMobile = false;
+
+      if (is_callable ($this['twig.mobile.validator']))
+        $isMobile = $this['twig.mobile.validator'] ();
+
+      if ($isMobile && isset ($this['twig.mobile.path.prefix']))
+        $view = $this['twig.mobile.path.prefix'] . $view;
+
+      else if ($isMobile && isset ($this['twig.mobile.path.decorator']))
+        $view = $this['twig.mobile.path.decorator'] ($view);
 
       if ($response instanceof StreamedResponse) {
 
